@@ -1,0 +1,15 @@
+.app-background {
+  @apply bg-gradient-to-b from-[#F90000] to-[#FF9000] h-screen bg-no-repeat bg-cover bg-center font-poppins flex flex-col items-center justify-around px-3;
+}
+
+.onboarding-bg {
+  @apply bg-gradient-to-b from-[#F90000] to-[#FF9000] h-screen bg-no-repeat bg-cover bg-center font-poppins px-3;
+}
+
+.home-background {
+  @apply bg-no-repeat bg-cover bg-center font-poppins flex flex-col justify-start;
+}
+
+.line {
+  @apply border-2 border-white rounded-full mx-1;
+}
