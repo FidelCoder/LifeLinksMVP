@@ -40,7 +40,7 @@ const config = {
       },
       backgroundImage: {
         "app-bg": "url('/svg/app-bg.svg')",
-        "wallet-bg": "url('/svg/wallet-bg.svg')",
+        "popular-events-bg": "url('/img/popular-events-bg.png')",
       },
       borderRadius: {
         lg: "var(--radius)",

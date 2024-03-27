@@ -7,10 +7,10 @@ import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 
 const NavBar = () => {
   return (
-    <div className="fixed bottom-0 w-full">
+    <div className="fixed bottom-0 w-full bg-white">
       <div className="flex justify-around items-center text-black h-[60px]">
         <Link
-          href="/"
+          href="/home"
           className="flex flex-col items-center text-black hover:text-[#F90000]"
         >
           <HouseSimple size={24} />
