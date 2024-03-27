@@ -1,3 +1,6 @@
+"use client";
+
+import Link from "next/link";
 import React from "react";
 
 const CreateEvent = () => {
@@ -7,9 +10,12 @@ const CreateEvent = () => {
         <h4 className="text-white font-semibold">
           Create an Event or a Catchup
         </h4>
-        <button className="py-3 px-6 bg-white text-black font-semibold rounded-xl hover:cursor-pointer">
-          Create
-        </button>
+        <Link
+          href="/catchup/createEvent"
+          className="py-3 px-6 bg-white w-auto  text-black font-semibold rounded-xl hover:cursor-pointer"
+        >
+          Create Event
+        </Link>
       </article>
     </div>
   );
