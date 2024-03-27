@@ -15,7 +15,7 @@ const Onboarding = () => {
   const router = useRouter();
 
   const handleNavigate = () => {
-    router.replace("/signup");
+    router.replace("/home");
   };
   return (
     <main className="onboarding-bg " onClick={handleNavigate}>
