@@ -1,0 +1,3 @@
+[submodule "life-link-contrats/lib/forge-std"]
+	path = life-link-contrats/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
