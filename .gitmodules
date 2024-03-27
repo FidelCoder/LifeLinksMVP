@@ -1,3 +1,6 @@
 [submodule "life-link-contrats/lib/forge-std"]
 	path = life-link-contrats/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "life-link-contrats/lib/openzeppelin-contracts"]
+	path = life-link-contrats/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
